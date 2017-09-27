@@ -1,0 +1,36 @@
+<idea-plugin>
+    <id>com.spreadst.codegamble.minit</id>
+    <name>MinitT</name>
+    <version>1.0</version>
+    <vendor email="chenwei1@spreadst.com" url="http://www.thundersoft.com">Thundersoft</vendor>
+
+    <description><![CDATA[
+    A simple programming language just for fun.
+    ]]></description>
+
+    <change-notes><![CDATA[
+    ]]>
+    </change-notes>
+
+    <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
+    <idea-version since-build="143.2370.31"/>
+
+    <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
+
+    <application-components>
+    </application-components>
+
+    <project-components>
+    </project-components>
+
+    <actions>
+    </actions>
+
+</idea-plugin>
